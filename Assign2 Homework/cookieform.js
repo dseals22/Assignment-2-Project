@@ -1,4 +1,4 @@
-change  
+finishechange  
   /* This tells Javascript to find the id selector name "submit" and assign it 
      to my function in order to populate different messages based on first 
      names when the user clicks the submit button.  */
@@ -37,7 +37,7 @@ change
 
     /* This finds the id selector named "sentences" and then binds it to the 
       JavaScript function in order to change it back to its original color
-      when a user mouses over it.  */
+      when a user finishes mousing over it.  */
    
    document.getElementsByClassName("sentences")[0].addEventListener("mouseout",
     function() { 
