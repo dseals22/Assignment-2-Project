@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cookie Order Form</title>
+    <link rel="stylesheet" href="First_Design.css">
+
+</head>
+<body>
+    <h1>Cookie Order Form</h1>
+    <p class="sentences">This form is a cookie order form for customers that purchased cookies from Daron's Cookies Company and the following below must be filled out in order for each customer to receive a final message that tells them when their order will be ready. 
+    Please refer to the picture when inputing your information into the form boxes.</p>
+    <div id="pic1">
+    <IMG SRC="customers_names.png" alt="Customer-names">
+   </div>
+   <br><br>
+    <IMG class="Wrap1" SRC="cookie.gif" alt="cookie">
+    <IMG class="Wrap2" SRC="cookie.gif" alt="cookie2">
+    <div>
+        <form id="cookie_form" action="#">
+            <fieldset class="field_set_1">
+                <!-- Below sets the title of the form-->
+                <legend>Customer Order Form Information:</legend>
+                <!-- Creates the first left label to specify what should be placed in the text box
+                to the right of the label. The rest below does the same.-->
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName">
+                <br>
+                <label for="orderNumber">Order Number:</label>
+                <input type="text" id="orderNumber" name="orderNumber">
+                <br>
+                <label for="date_of_order">Date of Order:</label>
+                <input type="text" id="date_of_order" name="date_of_order">
+                <br>
+                <label for="email_address">Email Address:</label>
+                <input type="text" id="email_address" name="email_address">
+                <br>
+                <label> &nbsp;</label>   
+             <div id="submit">
+             <input type="button" id="form_submission" value="Submit this form">
+             </div>
+            </fieldset>
+        </form>
+    </div>
+    <div class="clearfix">
+    </div>
+    <IMG class="Wrap1" SRC="cookie.gif" alt="cookie">
+    <IMG class="Wrap2" SRC="cookie.gif" alt="cookie2">
+   <!--The customer will recieve a pop up window that tells when their order will
+      be coming. This external file does that below. -->
+
+   <script src="cookieform.js"></script>
+   
+</body>
+</html>
