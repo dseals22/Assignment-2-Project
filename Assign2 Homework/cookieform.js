@@ -1,4 +1,4 @@
-finishechange  
+ 
   /* This tells Javascript to find the id selector name "submit" and assign it 
      to my function in order to populate different messages based on first 
      names when the user clicks the submit button.  */
